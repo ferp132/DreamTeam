@@ -1,4 +1,4 @@
-FloorSpawnRate = 130;
+FloorSpawnRate = 60;
 FloorSpawnTimer = 0;
 
 randomize();
