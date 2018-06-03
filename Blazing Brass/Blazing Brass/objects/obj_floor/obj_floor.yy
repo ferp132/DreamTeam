@@ -5,13 +5,13 @@
     "name": "obj_floor",
     "eventList": [
         {
-            "id": "e2a92e40-ee5b-4108-a650-396b43ccb801",
+            "id": "d28eca40-3d63-4bec-94ad-3df774c9bffd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
+            "eventtype": 0,
             "m_owner": "0f2adc9a-7dcc-429e-9196-ab981e8e60ee"
         }
     ],

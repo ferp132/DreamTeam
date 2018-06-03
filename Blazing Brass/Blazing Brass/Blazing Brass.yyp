@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "021808d6-9337-42a9-86e7-3a411cdefad1",
-            "Value": {
-                "id": "56290423-17f4-4aef-b4e1-f723384cbafe",
-                "resourcePath": "sprites\\sprite9\\sprite9.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "072fca3f-15d1-4019-bbcf-0dbe69248abd",
             "Value": {
                 "id": "35fdb8ee-a92f-47a3-b18b-d8de851ac2d3",
@@ -84,14 +76,6 @@
                 "id": "264ea457-4411-47be-b706-47266bfe5510",
                 "resourcePath": "objects\\obj_floor\\obj_floor.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "0fdc1a1a-33b5-4878-a0e1-57ff57b99c70",
-            "Value": {
-                "id": "0c59f41b-0335-46ef-8753-957e76481ba9",
-                "resourcePath": "sprites\\spr_sky\\spr_sky.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -156,14 +140,6 @@
                 "id": "43cfc3bc-f961-4f5f-94b6-2d49f6291de0",
                 "resourcePath": "sprites\\spr_floor\\spr_floor.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4ca054ee-6fbb-427d-8b1c-cde5521affe8",
-            "Value": {
-                "id": "61193f28-e667-412d-bc25-93456e1e5ad2",
-                "resourcePath": "objects\\obj_control\\obj_control.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -287,6 +263,14 @@
             }
         },
         {
+            "Key": "c263e54d-e044-4761-8d4f-50648adefed1",
+            "Value": {
+                "id": "b502ae98-9db3-4c00-ad93-0635c470e2c6",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c5256d54-dd26-4c11-9486-38f9da152957",
             "Value": {
                 "id": "868287c7-46ca-487a-9df3-74231b06aa34",
@@ -335,10 +319,10 @@
             }
         },
         {
-            "Key": "dfc171b4-173e-4a2f-9aef-94b6704c044b",
+            "Key": "d39b9084-ab7a-446e-aef9-89dee4232cce",
             "Value": {
-                "id": "2d00e836-ee3e-41b6-b17a-1973921f59ae",
-                "resourcePath": "objects\\obj_sky\\obj_sky.yy",
+                "id": "dbb2dc50-e792-4300-b383-616a3014be9c",
+                "resourcePath": "objects\\roomspawner\\roomspawner.yy",
                 "resourceType": "GMObject"
             }
         },

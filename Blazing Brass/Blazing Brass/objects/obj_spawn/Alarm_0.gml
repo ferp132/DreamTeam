@@ -4,3 +4,5 @@ w = random_range(32,500);
 h = choose(360,380,400,420);
 
 instance_create_layer(room_width+w,h,"Instances",obj_ground);
+
+if keyboard_check(ord(x)) room_goto("room1");

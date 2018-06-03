@@ -28,3 +28,5 @@ if(place_meeting(x, y + VMovement, objCollide))
 
 x += HMovement;
 y += VMovement;
+
+if (y > room_height * 1.5) instance_destroy();

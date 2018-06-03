@@ -1,28 +1,18 @@
 {
-    "id": "dfc171b4-173e-4a2f-9aef-94b6704c044b",
+    "id": "d39b9084-ab7a-446e-aef9-89dee4232cce",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sky",
+    "name": "roomspawner",
     "eventList": [
         {
-            "id": "990e554b-8b64-4baa-b0da-4bea675e13bc",
+            "id": "abf12f9c-be91-4125-af35-3a2ebb4b0286",
             "modelName": "GMEvent",
             "mvc": "1.0",
-            "IsDnD": true,
+            "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "dfc171b4-173e-4a2f-9aef-94b6704c044b"
-        },
-        {
-            "id": "739e3600-e3b6-4e96-b548-6e521a8f0a92",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 7,
-            "m_owner": "dfc171b4-173e-4a2f-9aef-94b6704c044b"
+            "m_owner": "d39b9084-ab7a-446e-aef9-89dee4232cce"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "0fdc1a1a-33b5-4878-a0e1-57ff57b99c70",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
