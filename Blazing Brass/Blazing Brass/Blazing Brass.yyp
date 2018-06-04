@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "8f2541a9-4abe-4355-85f6-a859d47ce229",
-            "Value": {
-                "id": "78310d29-c049-49b1-8346-ab0a4f199ca3",
-                "resourcePath": "objects\\obj_playerarm\\obj_playerarm.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "9101ef30-d889-487f-bb7a-8fcf4bb3d442",
             "Value": {
                 "id": "ecfa0b94-ee86-4bed-83c0-47ff26250d01",
@@ -250,7 +242,7 @@
             "Key": "a9aa368f-0619-41ea-a7f9-8b82bf830484",
             "Value": {
                 "id": "09cf6e61-39e5-4410-99a7-6fc742356ddc",
-                "resourcePath": "objects\\obj_spawn\\obj_spawn.yy",
+                "resourcePath": "objects\\obj_Control\\obj_Control.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -263,10 +255,26 @@
             }
         },
         {
+            "Key": "ba151382-c9be-4698-8352-c838830e4254",
+            "Value": {
+                "id": "8271f9dd-fe82-4c16-ac17-90f235809014",
+                "resourcePath": "rooms\\TestRoom2\\TestRoom2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "bdd9f826-1d1a-4f64-bfcc-d0f73bab98f1",
+            "Value": {
+                "id": "91409801-cc88-4fdf-a11b-4d659d831b65",
+                "resourcePath": "rooms\\TempRoom\\TempRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c263e54d-e044-4761-8d4f-50648adefed1",
             "Value": {
                 "id": "b502ae98-9db3-4c00-ad93-0635c470e2c6",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\TestRoom1\\TestRoom1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -322,7 +330,7 @@
             "Key": "d39b9084-ab7a-446e-aef9-89dee4232cce",
             "Value": {
                 "id": "dbb2dc50-e792-4300-b383-616a3014be9c",
-                "resourcePath": "objects\\roomspawner\\roomspawner.yy",
+                "resourcePath": "objects\\obj_RoomSwitcher\\obj_RoomSwitcher.yy",
                 "resourceType": "GMObject"
             }
         },

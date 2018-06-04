@@ -2,16 +2,16 @@
     "id": "d39b9084-ab7a-446e-aef9-89dee4232cce",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "roomspawner",
+    "name": "obj_RoomSwitcher",
     "eventList": [
         {
-            "id": "abf12f9c-be91-4125-af35-3a2ebb4b0286",
+            "id": "45c421b8-f203-4092-b6bb-8c57ca55b6c4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 3,
             "m_owner": "d39b9084-ab7a-446e-aef9-89dee4232cce"
         }
     ],

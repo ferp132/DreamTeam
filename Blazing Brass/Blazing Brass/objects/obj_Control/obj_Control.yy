@@ -2,18 +2,8 @@
     "id": "a9aa368f-0619-41ea-a7f9-8b82bf830484",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_spawn",
+    "name": "obj_Control",
     "eventList": [
-        {
-            "id": "9924d4ed-eee2-418c-9e28-67ff9fb58e2b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "a9aa368f-0619-41ea-a7f9-8b82bf830484"
-        },
         {
             "id": "1183ded8-1bcb-46e8-ad4e-dfe0ae824591",
             "modelName": "GMEvent",
@@ -35,7 +25,7 @@
             "m_owner": "a9aa368f-0619-41ea-a7f9-8b82bf830484"
         },
         {
-            "id": "92df6e4d-f1f1-47b7-a83b-83a76f6badf8",
+            "id": "f99aafcd-7e61-478f-93e5-ef27c4ba8450",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -48,7 +38,7 @@
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

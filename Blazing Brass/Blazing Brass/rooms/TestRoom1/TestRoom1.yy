@@ -1,16 +1,14 @@
 
 {
-    "name": "room1",
+    "name": "TestRoom1",
     "id": "c263e54d-e044-4761-8d4f-50648adefed1",
     "creationCodeFile": "",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "53974abb-8c8b-4e08-b343-60cfe2779d7a",
-        "9b4a4fe2-c368-4a64-bf37-51e1e43bf7cf",
-        "f181493a-a312-4af9-adbd-cef58d8bf0c4",
-        "c210cf0d-5185-449b-8300-28262f13e942"
+        "ec106c6a-8923-4f0a-88bc-f323db54172b",
+        "e642a677-9dcb-4376-9301-aed8ce04843c"
     ],
     "IsDnD": true,
     "layers": [
@@ -28,10 +26,8 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_1BE2C7AB","id": "53974abb-8c8b-4e08-b343-60cfe2779d7a","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_1BE2C7AB","objId": "d1eef1df-38da-4d94-ba25-8e799c9a1c13","properties": null,"rotation": 0,"scaleX": 17,"scaleY": 2.5,"mvc": "1.0","x": 224,"y": 736},
-{"name": "inst_66075A72","id": "9b4a4fe2-c368-4a64-bf37-51e1e43bf7cf","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_66075A72","objId": "d1eef1df-38da-4d94-ba25-8e799c9a1c13","properties": null,"rotation": 0,"scaleX": 17,"scaleY": 2.5,"mvc": "1.0","x": 128,"y": 64},
-{"name": "inst_6E9DFC02","id": "f181493a-a312-4af9-adbd-cef58d8bf0c4","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6E9DFC02","objId": "d1eef1df-38da-4d94-ba25-8e799c9a1c13","properties": null,"rotation": 0,"scaleX": 7,"scaleY": 3.5,"mvc": "1.0","x": 608,"y": 416},
-{"name": "inst_18C58080","id": "c210cf0d-5185-449b-8300-28262f13e942","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_18C58080","objId": "d39b9084-ab7a-446e-aef9-89dee4232cce","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 864,"y": 64}
+{"name": "inst_382D1796","id": "ec106c6a-8923-4f0a-88bc-f323db54172b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_382D1796","objId": "d39b9084-ab7a-446e-aef9-89dee4232cce","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 544,"y": 352},
+{"name": "inst_691FDA6B","id": "e642a677-9dcb-4376-9301-aed8ce04843c","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": true,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_691FDA6B","objId": "0f2adc9a-7dcc-429e-9196-ab981e8e60ee","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 608,"y": 608}
             ],
             "layers": [
 
@@ -45,8 +41,8 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Background",
-            "id": "f8a48264-2e69-44d8-ab67-1dcbb0ab12e6",
+            "name": "Backgrounds_1",
+            "id": "f559b6c0-0aeb-4bd6-869e-3a302fa07fd9",
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278190080 },
@@ -98,7 +94,7 @@
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 2400
+        "Width": 1200
     },
     "mvc": "1.0",
     "views": [

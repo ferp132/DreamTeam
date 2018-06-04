@@ -1,1 +1,0 @@
-FloorMovement = -10;

@@ -10,14 +10,14 @@ HMovement = clamp(HMovement, -HSpeed, HSpeed)
 if(place_meeting(x + HMovement, y, objCollide))
 {
 	while(!place_meeting(x+sign(HMovement), y, objCollide)) x += sign(HMovement);
-	if (HMovement > 0) x += objCollide.FloorMovement;
+	if (HMovement > 0) x += obj_Control.GlobalMovement;
 	HMovement = 0;
 }
 
 if(place_meeting(x, y+1, objCollide))
 {
 	if(VInput)	VMovement = VSpeed;
-	if(HMovement <= 0) x+= objCollide.FloorMovement;
+	if(HMovement <= 0) x+= obj_Control.GlobalMovement;
 } else VMovement	+= Gravity;
 
 if(place_meeting(x, y + VMovement, objCollide))
