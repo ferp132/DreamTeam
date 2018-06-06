@@ -1,5 +1,5 @@
 if(keyboard_check_pressed(vk_up) && playerjet > 0){
-	vspeed -= 10;
+	vspeed -= VJump;
 }
 
 if(place_free(x,y+1)){
