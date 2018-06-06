@@ -21,7 +21,7 @@ if(place_meeting(x + HMovement, y, objCollide))
 if(place_meeting(x, y+1, objCollide))
 {
 	if(VInput)	VMovement = VSpeed;
-	if(HMovement <= 0) x+= obj_Control.GlobalMovement;
+	if(HMovement == 0) x+= obj_Control.GlobalMovement;
 } else VMovement	+= Gravity;
 
 //Dont hit your head
@@ -32,6 +32,7 @@ if(place_meeting(x, y + VMovement, objCollide))
 }
 
 //actually apply the movement
+if (HMovement < 0) HMovement += obj_Control.GlobalMovement;
 x += HMovement;
 y += VMovement;
 
