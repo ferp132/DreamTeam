@@ -1,18 +1,18 @@
 {
-    "id": "d39b9084-ab7a-446e-aef9-89dee4232cce",
+    "id": "0ac90e4f-276d-4e9c-b8c6-5f864fcdebcf",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_RoomSwitcher",
+    "name": "objCarriage",
     "eventList": [
         {
-            "id": "45c421b8-f203-4092-b6bb-8c57ca55b6c4",
+            "id": "d722d85e-bccc-4b4a-9690-d8065795b4ad",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "d39b9084-ab7a-446e-aef9-89dee4232cce"
+            "m_owner": "0ac90e4f-276d-4e9c-b8c6-5f864fcdebcf"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "b885ecbc-c478-4d88-9275-f77117114b20",
     "visible": true
 }

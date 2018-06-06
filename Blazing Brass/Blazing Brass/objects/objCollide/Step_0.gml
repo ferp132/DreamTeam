@@ -1,3 +1,4 @@
-x += obj_Control.GlobalMovement;
+if(instance_exists(obj_Control))
+	x += obj_Control.GlobalMovement;
 
-if(x < (0 - sprite_width * 2)) instance_destroy();
+if(x < (0 - room_width * 2)) instance_destroy();
