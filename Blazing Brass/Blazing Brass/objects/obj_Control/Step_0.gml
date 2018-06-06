@@ -1,7 +1,8 @@
 
 //Room Spawner
 #region
-if(FloorSpawnTimer <= 0){
+if(FloorSpawnTimer <= 0 && room_get_name(room) == "room0")
+{
 	
 	InitializeCarriages(2);
 	FloorSpawnTimer = SpawnTimer;

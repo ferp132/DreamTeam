@@ -6,7 +6,8 @@
     "children": [
         "43b291a0-c7b9-48e2-9fbb-cc7970270200",
         "a0355ae6-217d-4553-8c25-c74d03cb2c22",
-        "5a732e5e-ab91-4ab6-ae90-e9d0e9850fb6"
+        "5a732e5e-ab91-4ab6-ae90-e9d0e9850fb6",
+        "a58fe348-dbf2-417f-994a-641022718067"
     ],
     "filterType": "GMRoom",
     "folderName": "CarriageTemplates",

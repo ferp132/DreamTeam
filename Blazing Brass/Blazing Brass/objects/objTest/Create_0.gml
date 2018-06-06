@@ -9,6 +9,7 @@ VMovement		= 0;	//-----Actual Movement to be applied to players Y
 VSpeed			= -26;	//-----How powerful the players jump is (negative = up)
 VInput			= 0;	//-----Players Up Input for going up ladders
 JInput			= 0;	//-----Input For Jumps
+ClimbSpeed		= -HSpeed;
 
 
 Gravity			= 2;
