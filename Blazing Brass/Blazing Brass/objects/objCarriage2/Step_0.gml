@@ -1,1 +1,1 @@
-x += obj_Control.GlobalMovement;
+x += objControl.GlobalMovement;

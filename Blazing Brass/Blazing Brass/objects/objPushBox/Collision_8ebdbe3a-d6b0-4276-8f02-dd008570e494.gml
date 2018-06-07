@@ -1,0 +1,3 @@
+HMovement += PushSpeed;
+
+HP--;

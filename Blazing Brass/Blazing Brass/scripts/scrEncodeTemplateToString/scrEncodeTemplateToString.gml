@@ -1,4 +1,4 @@
-GridSize = 64;
+GridSize = 32;
 
 xTiles = room_width  / GridSize;
 yTiles = room_height / GridSize;
@@ -23,6 +23,12 @@ for (_y = 0; _y < yTiles; _y++)
 				break;
 			case objLadder:
 				LevelData += "2";
+				break;
+			case objPushBox:
+				LevelData += "3";
+				break;
+			case objScrap:
+				LevelData += "4";
 				break;
 		}
 	}
