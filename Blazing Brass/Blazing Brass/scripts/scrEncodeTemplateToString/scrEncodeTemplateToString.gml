@@ -1,4 +1,4 @@
-GridSize = 32;
+GridSize = 64;
 
 xTiles = room_width  / GridSize;
 yTiles = room_height / GridSize;
@@ -20,6 +20,9 @@ for (_y = 0; _y < yTiles; _y++)
 				break;
 			case objCollide:
 				LevelData += "1";
+				break;
+			case objLadder:
+				LevelData += "2";
 				break;
 		}
 	}
