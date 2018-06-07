@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "4e6fb15d-1803-4e7b-8bfc-a599af47a474",
+            "Value": {
+                "id": "30ee245a-0220-4466-b587-d2469d9e7ce0",
+                "resourcePath": "objects\\objScrap\\objScrap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4eaca16e-19fc-4417-a2cf-2b14011081f7",
             "Value": {
                 "id": "03642c2a-7274-4638-8894-19960ee7272c",
@@ -476,6 +484,14 @@
                 "id": "670f056e-c516-43ed-bfe2-1c2fac155ede",
                 "resourcePath": "rooms\\CarriageTemplate1\\CarriageTemplate1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e63944ba-0add-4e0b-8b11-4bac67fb108b",
+            "Value": {
+                "id": "b3d5f825-8668-4526-a060-5c6da43328f7",
+                "resourcePath": "sprites\\sprScrap\\sprScrap.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

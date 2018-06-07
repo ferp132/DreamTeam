@@ -15,6 +15,7 @@ HMovement = clamp(HMovement, -HSpeed, HSpeed)
 if(place_meeting(x + HMovement, y, objCollide))
 {
 	while(!place_meeting(x+sign(HMovement), y, objCollide)) x += sign(HMovement);
+	if (HMovement < 0) x += -obj_Control.GlobalMovement;
 	HMovement = 0;
 }
 
@@ -47,9 +48,6 @@ if(place_meeting(x, y + VMovement, objCollide))
 
 //-----Apply Vertical Movement
 y += VMovement;
-
-
-
 
 //-----Destroy The Player
 if (y > room_height * 1.5) instance_destroy();
