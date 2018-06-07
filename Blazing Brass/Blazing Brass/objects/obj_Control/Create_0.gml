@@ -1,5 +1,5 @@
 FloorSpawnTimer = 0;
-GlobalMovement = -15;
+GlobalMovement = -10;
 SpawnTimer = 2200 / abs(GlobalMovement);
 
 if(room_get_name(room) == "room0")
