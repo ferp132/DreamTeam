@@ -4,16 +4,13 @@ CarriageStringData = ds_list_find_value(CarriageList, floor(random(ds_list_size(
 
 for (c = 0; c < string_length(CarriageStringData); c++)
 {
-	//new
-	CharacterToCheck = string_char_at(CarriageStringData, c)
+	CharacterToCheck = string_char_at(CarriageStringData, c);
+	PlaceToPlacex = room_width + ((c mod CarriagexTiles) * GridSize);
+	PlaceToPlacey = (room_height  - 100 - CarriageHeight) + ((floor(c / CarriagexTiles) * GridSize));
 	
 	//if (c = 0) instance_create_layer(room_width + ((c mod CarriagexTiles) * GridSize) + 32, (room_height  - 100 - CarriageHeight) + (floor(c / CarriagexTiles) * GridSize) - 96, "Background_Cloud_Front", objCarriage1);
 	
-	//new
-	if(!position_empty(room_width/2 + ((c mod CarriagexTiles) * GridSize), (room_height  - 100 - CarriageHeight) + (floor(c / CarriagexTiles) * GridSize)))
-		{
-			CharacterToCheck = "0";
-		}
+	if(!position_empty(PlaceToPlacex, PlaceToPlacey)) continue;
 		
 	switch(CharacterToCheck)
 	{
@@ -21,22 +18,27 @@ for (c = 0; c < string_length(CarriageStringData); c++)
 			break;
 		case "1":
 		{	
-			instance_create_layer(room_width/2 + ((c mod CarriagexTiles) * GridSize), (room_height  - 100 - CarriageHeight) + (floor(c / CarriagexTiles) * GridSize), "Instances", objCollide);
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objCollide);
 			break;
 		}
 		case "2":
 		{
-			instance_create_layer(room_width/2 + ((c mod CarriagexTiles) * GridSize), (room_height  - 100 - CarriageHeight) + (floor(c / CarriagexTiles) * GridSize), "Instances", objLadder);
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objLadder);
 			break;
 		}
 		case "3":
 		{
-			instance_create_layer(room_width/2 + ((c mod CarriagexTiles) * GridSize), (room_height  - 100 - CarriageHeight) + (floor(c / CarriagexTiles) * GridSize), "Instances", objPushBox);
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objPushBox);
 			break;
 		}
 		case "4":
 		{
-			instance_create_layer(room_width/2 + ((c mod CarriagexTiles) * GridSize), (room_height  - 100 - CarriageHeight) + (floor(c / CarriagexTiles) * GridSize), "Instances", objScrap);
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objScrap);
+			break;
+		}
+		case "5":
+		{
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", Obj_Turret);
 			break;
 		}
 		

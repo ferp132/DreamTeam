@@ -61,6 +61,6 @@ y += VMovement;
 
 #region Destroy The Player
 
-if (y > room_height * 1.5) instance_destroy();
+if (y > room_height * 1.5 || HP <= 0) instance_destroy();
 
 #endregion

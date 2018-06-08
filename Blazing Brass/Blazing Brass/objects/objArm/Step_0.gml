@@ -13,3 +13,5 @@ instance_create_layer(x+128, y+10, "Instances", objbullet);
 ShootTimer = FireRate;
 }
 ShootTimer--;
+
+if (y > room_height * 1.25) instance_destroy();

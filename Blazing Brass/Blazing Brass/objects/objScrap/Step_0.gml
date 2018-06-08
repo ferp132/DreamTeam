@@ -1,6 +1,3 @@
-image_angle += 45;
-
-
 if(CanMove)
 {
 scrHorzCollision();
@@ -15,4 +12,4 @@ scrHorzCollision();
 }
 else x += objControl.GlobalMovement;
 
-if(x < -room_width/2) instance_destroy();
+if(y < -room_height/2) instance_destroy();
