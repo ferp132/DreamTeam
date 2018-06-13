@@ -4,7 +4,7 @@ switch (state)
     {
         HMovement = 0;
 		sprite_index = sprBanditIdle
-		if (distance_to_object(objPlayer) < room_width)
+		if (distance_to_object(objPlayer) < room_width/3)
 			state = e_state.chase;
     }
     break;
@@ -17,7 +17,7 @@ switch (state)
         if (dir < 0) HMovement = dir * HSpeed + objControl.GlobalMovement;
 		else if (dir > 0) HMovement = dir * HSpeed;
 		
-        if ((distance_to_object(objPlayer) - 100) > room_width) state = e_state.idle;
+        if ((distance_to_object(objPlayer) - 100) > room_width/3) state = e_state.idle;
 	}
 	}
     break;
