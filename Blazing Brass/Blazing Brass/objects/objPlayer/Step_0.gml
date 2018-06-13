@@ -9,8 +9,14 @@
 if(HInput != 0)
 {
 HMovement += HInput * Acceleration;
+
+sprite_index = sprPlayerWalk;
 HMovement = clamp(HMovement, -HSpeed, HSpeed)
+
+
 }else HMovement = 0;
+//sprite_index = sprPlayerIdle
+
 
 #endregion
 
@@ -39,11 +45,13 @@ else VMovement += Gravity;
 
 #region Ladder
 
+
 if(place_meeting(x, y, objLadder))
 {
 	VMovement = 0;
 	if(VInput != 0)	VMovement = VSpeed * -VInput;
 }
+
 
 #endregion
 
@@ -56,6 +64,7 @@ scrVertCollision();
 #region Apply Vertical Movement
 
 y += VMovement;
+
 
 #endregion
 

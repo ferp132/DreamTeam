@@ -3,12 +3,18 @@ switch (state)
     case e_state.idle:
     {
         HMovement = 0;
+
+		sprite_index = sprBanditIdle
+
 		if (distance_to_object(objPlayer) < room_width)
 			state = e_state.chase;
     }
     break;
     case e_state.chase:
     {
+
+	sprite_index = sprBanditWalking
+
 	if(instance_exists(objPlayer))
 	{
         dir = sign(objPlayer.x - x);
