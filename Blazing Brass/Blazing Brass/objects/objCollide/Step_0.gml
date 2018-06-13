@@ -1,4 +1,4 @@
-if(instance_exists(obj_Control))
-	x += obj_Control.GlobalMovement;
+if(instance_exists(objControl))
+	x += objControl.GlobalMovement;
 
 if(x < (-(room_width/2))) instance_destroy();

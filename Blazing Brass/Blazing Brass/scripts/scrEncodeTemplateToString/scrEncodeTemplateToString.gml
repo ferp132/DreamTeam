@@ -21,6 +21,18 @@ for (_y = 0; _y < yTiles; _y++)
 			case objCollide:
 				LevelData += "1";
 				break;
+			case objLadder:
+				LevelData += "2";
+				break;
+			case objPushBox:
+				LevelData += "3";
+				break;
+			case objScrap:
+				LevelData += "4";
+				break;
+			case Obj_Turret:
+				LevelData += "5";
+				break			
 		}
 	}
 
