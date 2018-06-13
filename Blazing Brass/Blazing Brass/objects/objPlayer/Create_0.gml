@@ -13,7 +13,5 @@ JInput			= 0;	//-----Input For Jumps
 instance_create_depth(x, y, -1, objArm);
 
 Gravity			= 1.8;
-
 HP = 10;
 image_speed = 1.5;
-
