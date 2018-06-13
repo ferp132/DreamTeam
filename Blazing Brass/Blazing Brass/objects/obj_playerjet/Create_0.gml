@@ -1,2 +1,2 @@
-x = obj_player.x;
-y = obj_player.y -50;
+x = objPlayer.x;
+y = objPlayer.y -50;

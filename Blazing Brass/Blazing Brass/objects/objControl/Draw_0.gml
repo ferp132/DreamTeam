@@ -1,0 +1,1 @@
+draw_text_transformed(100, 100, "Scrap: " + string(ScrapCounter),2,2,0);
