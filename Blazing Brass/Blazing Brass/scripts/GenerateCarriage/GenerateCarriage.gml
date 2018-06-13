@@ -43,7 +43,7 @@ for (c = 0; c < string_length(CarriageStringData); c++)
 		}
 		case "6":
 		{
-			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", obj_Bandit);
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objBandit);
 			break;
 		}
 		

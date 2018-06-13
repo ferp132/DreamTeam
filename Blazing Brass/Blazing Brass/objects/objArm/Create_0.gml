@@ -1,3 +1,7 @@
-dir = 0;
+MyOwner = noone;
+Direction = 0;
+Pointing = 0;
 ShootTimer	= 0;
-FireRate	= 5;
+GunDamage = 0;
+GunFireRate = 0;
+GunBulletSpeed = 0;

@@ -1,17 +1,52 @@
-//---------Variables
-//-----Horizontal vars
-HMovement		= 0;	//-----Actual Movement to be applied to the players x
-HSpeed			= 20;	//-----Mow much the player can move per step
-HInput			= 0;	//-----Players Right-Left Input
-Acceleration	= HSpeed/3;
-//-----Vertical Vars
-VMovement		= 0;	//-----Actual Movement to be applied to players Y
-VSpeed			= -24;	//-----How powerful the players jump is (negative = up)
-VInput			= 0;	//-----Players Up Input for going up ladders
-JInput			= 0;	//-----Input For Jumps
+event_inherited();
+with (instance_create_depth(x, y, -1, objArm))
+{
+	MyOwner = other.id;
+}
 
-instance_create_depth(x, y, -1, objArm);
+//-----Player Health
+PlayerHP = 100;
+PlayerHPMultiplier = 1;
 
-Gravity			= 1.8;
-HP = 10;
-image_speed = 1.5;
+//-----Player Attack Values
+PlayerDamage = 10;
+PlayerBulletSpeed = 100;
+PlayerFireRate = 15;
+
+//Player Input Variables
+HInput = 0;	//Horizontal Input
+VInput = 0;	//Vertical Input
+JInput = 0;	//Jump Input
+AInput = 0; //Activate Input
+
+//Player Hover
+CanHover			= 0;
+HoverTime			= 120;
+HoverTimeMultiplier = 1;
+HoverCounter		= HoverTime * HoverTimeMultiplier;
+
+
+//-----Player States
+enum PlayerState
+{
+	IDLE = 0,
+	RUN,
+	JUMP,
+	FALL,
+	HOVER,
+	ACTIVATE,
+	ATTACK,
+	DEAD,
+}
+
+State = PlayerState.IDLE;
+
+//-----Player Sprites
+
+SpriteIdle		= sprPlayer1Idle;
+SpriteRun		= sprPlayer1Run;
+SpriteJump		= sprPlayer1Jump;
+SpriteFall		= sprPlayer1Fall;
+SpriteHover		= sprPlayer1Hover;
+SpriteActivate	= sprPlayer1Activate;
+SpriteDead		= sprPlayer1Death;

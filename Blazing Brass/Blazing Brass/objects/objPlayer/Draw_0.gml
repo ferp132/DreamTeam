@@ -1,2 +1,4 @@
 draw_self();
-draw_text_transformed(150, 150, "Health: " + string(HP), 2, 2, 0);
+draw_text(x, y, string(HInput));
+draw_text(x, y+10, string(HMovement));
+draw_text(x, y+20, string(place_meeting(x,y,objCollide)));

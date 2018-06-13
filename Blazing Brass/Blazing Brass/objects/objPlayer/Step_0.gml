@@ -1,75 +1,71 @@
-#region GetInput
-	scrGetInput();
-#endregion
+//-----GetInput
+scrGetInput();
 
-#region Apply Horizontal Input
-
-//If there is input, increase movement
-
+//-----Apply Horizontal Input
 if(HInput != 0)
 {
-HMovement += HInput * Acceleration;
-sprite_index = sprPlayerWalk;
-HMovement = clamp(HMovement, -HSpeed, HSpeed)
-
-
-}else HMovement = 0;
-//sprite_index = sprPlayerIdle
-
-
-#endregion
-
-#region Horizontal Collision Check
-
-scrHorzCollision();
-
-#endregion
-
-#region Apply Horizontal Movement
-
-if (HMovement == 0) x += objControl.GlobalMovement;
-else x += HMovement;
-//sprite_index = sprPlayerJump	
-
-
-#endregion
-
-#region Jump & Gravity
+		MoveDir = HInput;
+		State = PlayerState.RUN;
+		HMovement += MoveDir * Acceleration;
+		HMovement = clamp(HMovement, -HSpeed, HSpeed)
+}
+else	
+{
+	State = PlayerState.IDLE;
+	HMovement = 0;
+}
 
 if(place_meeting(x, y+1, objCollide))
 {
-	if(-VInput)	VMovement = VSpeed;
-//sprite_index = sprPlayerIdle;
+	CanHover = 0;
+	HoverCounter = HoverTime * HoverTimeMultiplier;
+	if(JInput)
+	{
+		State = PlayerState.JUMP;
+		VMovement = VSpeed;
+	}
 }
-else VMovement += Gravity;
-
-#endregion
-
-#region Ladder
-
-/*if(place_meeting(x, y, objLadder))
+else 
 {
-	VMovement = 0;
-	if(VInput != 0)	VMovement = VSpeed * -VInput;
-}*/
+	if(CanHover)
+	{
+		State = PlayerState.HOVER;
+		VMovement = 0;
+		if(VInput !=0) 
+		{
+			VMovement = HSpeed * VInput;
+		}
+		HoverCounter--;
+		if (HoverCounter <= 0) CanHover = false;
+	}
+	else if(JInput && HoverCounter > 0)
+	{
+		CanHover = 1;
+	}
+	else
+	{
+		State = PlayerState.FALL;
+		VMovement += Gravity;
+	}
+}
 
-#endregion
+if(AInput != 0)
+{
+	State = PlayerState.ACTIVATE;
+}
 
-#region Vertical Collision Check
-
+//-----Collisions
+scrHorzCollision();
 scrVertCollision();
 
-#endregion
+//-----Apply Movement
+scrMove();
 
-#region Apply Vertical Movement
-
-y += VMovement;
-//sprite_index = sprPlayerJump;
-
-#endregion
+//scrSetPlayerState();
+scrSetPlayerSprite();
 
 #region Destroy The Player
 
-if (y > room_height * 1.5 || HP <= 0) instance_destroy();
+if (y > room_height * 1.5 || PlayerHP <= 0) instance_destroy();
 
 #endregion

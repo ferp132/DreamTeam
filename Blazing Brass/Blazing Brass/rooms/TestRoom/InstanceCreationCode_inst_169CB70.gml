@@ -1,0 +1,1 @@
+GlobalMovement = 0;

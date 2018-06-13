@@ -1,16 +1,40 @@
-if(instance_exists(objPlayer))
+with(MyOwner)
 {
-	x = objPlayer.x;
-	y = objPlayer.y - 32;
+	other.x = x;
+	other.y = objPlayer.y - 32;
+	other.Direction = MoveDir;
+	other.GunDamage = PlayerDamage;
+	other.GunFireRate = PlayerFireRate;
+	other.GunBulletSpeed = PlayerBulletSpeed;
+}
+Pointing = point_direction(x, y, mouse_x, mouse_y);
+
+if(Direction == 1)
+{
+	if(Pointing <= 180 && Pointing >= 5) Pointing = 5;
+	else if (Pointing > 180 && Pointing <= 315) Pointing = 315;
+	image_yscale = Direction;
+}
+else if(Direction = -1)
+{
+	if(Pointing >= 0 && Pointing <= 175) Pointing = 175;
+	else if (Pointing <= 360 && Pointing >= 225) Pointing = 225;
+	image_yscale = Direction;
 }
 
-dir = 25 + point_direction(x, y, mouse_x, mouse_y);
-image_angle = dir;
+image_angle = Pointing + (20 * Direction);
 
 if(mouse_check_button(mb_left) && ShootTimer <= 0) 
 {
-instance_create_layer(x+128, y+10, "Instances", objbullet);
-ShootTimer = FireRate;
+	with (instance_create_layer(x, y+30, "Instances", objbullet))
+	{
+		MyOwner = other.id;
+		direction = other.Pointing;
+		image_angle = other.Pointing;
+		BulletDamage = other.GunDamage;
+		speed = other.GunBulletSpeed;
+	}
+	ShootTimer = GunFireRate;
 }
 ShootTimer--;
 

@@ -1,5 +1,3 @@
-Dmg = 1;
+MyOwner = noone;
+BulletDamage = 0;
 
-image_angle = point_direction(x,y,mouse_x,mouse_y);
-direction   = point_direction(x,y,mouse_x,mouse_y);
-speed = 50;
