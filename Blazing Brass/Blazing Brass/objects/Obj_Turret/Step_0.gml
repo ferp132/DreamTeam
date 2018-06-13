@@ -10,6 +10,7 @@ if (distance_to_player <= los && collision_line(x,y,objPlayer.x, objPlayer.y, ob
     //image_angle += sin(degtorad(pointdir - image_angle)) * rspeed;		//rotate smoothly
 
     active = true;
+
 		sprite_index = sprTurretShooting;
 		
 		image_speed = 1/4;
@@ -22,9 +23,9 @@ if (distance_to_player <= los && collision_line(x,y,objPlayer.x, objPlayer.y, ob
 	}
 }
 else active = false;
+
 	sprite_index = sprTurretIdle;
 	image_speed = 15;
-}
 
 x += objControl.GlobalMovement;
 ShootDelay--;
