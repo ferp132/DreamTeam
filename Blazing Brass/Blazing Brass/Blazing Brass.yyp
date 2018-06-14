@@ -456,7 +456,10 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 181855c... Revert
             "Key": "41a44cb5-31a5-4858-8e2f-cd3f5b125153",
             "Value": {
                 "id": "cbe9d0f5-04e8-4679-ae66-b403d68cb421",
@@ -740,6 +743,9 @@
             }
         },
         {
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "6ee4d4fd-136c-459b-929e-f995128ae66b",
             "Value": {
@@ -833,7 +839,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of e8ccb85... Merge branch 'Louis-Working-14-6-18' of https://github.com/ferp132/DreamTeam into Louis-Working-14-6-18
             "Key": "794a41a2-66b2-418d-89f9-684f0ade8bb2",
@@ -846,6 +851,9 @@
         {
 =======
 >>>>>>> parent of daf0f85... Included Boss Prototype
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "797f5776-ae30-48ff-afe1-8ee007b31097",
             "Value": {
@@ -872,7 +880,10 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 181855c... Revert
             "Key": "7de0d264-f4bf-4400-9be9-19b2bfbe7787",
             "Value": {
                 "id": "b865ffb3-c91e-433f-9072-60668fef4e57",
@@ -902,7 +913,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of e8ccb85... Merge branch 'Louis-Working-14-6-18' of https://github.com/ferp132/DreamTeam into Louis-Working-14-6-18
             "Key": "82398d98-7621-426c-9997-3bed84aa111d",
@@ -915,6 +925,9 @@
         {
 =======
 >>>>>>> parent of daf0f85... Included Boss Prototype
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "829950b7-a547-4ed6-bf32-07f6a91539cd",
             "Value": {
@@ -941,7 +954,10 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 181855c... Revert
             "Key": "863ea83d-da1d-47c3-a349-66ec46319240",
             "Value": {
                 "id": "6279c204-6f48-4740-ad3b-dd8b98e5efe9",
@@ -1033,7 +1049,6 @@
         {
 <<<<<<< HEAD
 =======
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1138,6 +1153,9 @@
         {
 =======
 >>>>>>> parent of daf0f85... Included Boss Prototype
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "9d84b51b-8648-4395-bf10-3a956fbb0cce",
             "Value": {
@@ -1204,6 +1222,25 @@
         },
         {
             "Key": "a9af5b7a-352c-4de0-b389-8416b7537343",
+<<<<<<< HEAD
+=======
+            "Value": {
+                "id": "c1c89bf5-3ff4-4fb3-92b5-9e26c4da7a2a",
+                "resourcePath": "views\\a9af5b7a-352c-4de0-b389-8416b7537343.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "aa891041-7f71-4740-8266-4ef0f39983ba",
+            "Value": {
+                "id": "bd56e608-fd16-4e05-be6d-80eee690021d",
+                "resourcePath": "views\\aa891041-7f71-4740-8266-4ef0f39983ba.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ac664536-2a27-4665-89b1-35061113164b",
+>>>>>>> parent of 181855c... Revert
             "Value": {
                 "id": "c1c89bf5-3ff4-4fb3-92b5-9e26c4da7a2a",
                 "resourcePath": "views\\a9af5b7a-352c-4de0-b389-8416b7537343.yy",
@@ -1332,6 +1369,17 @@
         },
         {
             "Key": "bfee26f1-f6ee-477a-b065-e0ec5d11c657",
+<<<<<<< HEAD
+=======
+            "Value": {
+                "id": "7768d23b-969a-4a67-9835-e999a1617227",
+                "resourcePath": "sprites\\sprWindowBoards4\\sprWindowBoards4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c28602d7-02a2-4e46-8bff-918c2201d9d7",
+>>>>>>> parent of 181855c... Revert
             "Value": {
                 "id": "7768d23b-969a-4a67-9835-e999a1617227",
                 "resourcePath": "sprites\\sprWindowBoards4\\sprWindowBoards4.yy",
@@ -1359,7 +1407,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of e8ccb85... Merge branch 'Louis-Working-14-6-18' of https://github.com/ferp132/DreamTeam into Louis-Working-14-6-18
             "Key": "c3093196-410f-4dca-8351-75ebdbc948bd",
@@ -1372,6 +1419,9 @@
         {
 =======
 >>>>>>> parent of daf0f85... Included Boss Prototype
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "c4a5d2fe-1164-49e3-9b5b-cea87c65cda9",
             "Value": {
@@ -1463,6 +1513,9 @@
             }
         },
         {
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "c9b8d29e-64a5-4bc1-ac24-57dd65d19806",
             "Value": {
@@ -1596,7 +1649,6 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
 >>>>>>> parent of e8ccb85... Merge branch 'Louis-Working-14-6-18' of https://github.com/ferp132/DreamTeam into Louis-Working-14-6-18
             "Key": "d88e2442-355d-4565-b857-e89e90230f68",
@@ -1609,6 +1661,9 @@
         {
 =======
 >>>>>>> parent of daf0f85... Included Boss Prototype
+<<<<<<< HEAD
+>>>>>>> parent of 181855c... Revert
+=======
 >>>>>>> parent of 181855c... Revert
             "Key": "d90b6e1e-1c09-4ec6-9db7-f1af8fdd4841",
             "Value": {
