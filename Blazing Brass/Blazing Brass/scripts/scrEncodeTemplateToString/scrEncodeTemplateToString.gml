@@ -33,7 +33,7 @@ for (_y = 0; _y < yTiles; _y++)
 			case Obj_Turret:
 				LevelData += "5";
 				break
-			case obj_Bandit:
+			case objBandit:
 				LevelData += "6";
 				break	
 		}

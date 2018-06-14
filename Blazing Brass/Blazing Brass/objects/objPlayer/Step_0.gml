@@ -49,7 +49,7 @@ else
 	}
 }
 
-if(AInput != 0)
+if(!AInput)
 {
 	State = PlayerState.ACTIVATE;
 }

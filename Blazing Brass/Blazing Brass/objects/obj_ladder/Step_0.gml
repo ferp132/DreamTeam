@@ -1,0 +1,1 @@
+y -= obj_tankcontrol.tank_speed;

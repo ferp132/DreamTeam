@@ -6,13 +6,23 @@ if(DecisionCountdown <= 0)
 	DecisionCountdown = DecisionTime;
 	
 	if(CanAttackPlayer && ShootTimer <= 0) Choice = EnemyChoice.SHOOT;
+	else if(PlayerInRange != noone && distance_to_object(PlayerInRange) < MinAttackRange && place_meeting(x + MoveDir, y, objCollide))
+	{
+		DecisionCountdown = 4;
+		Choice = EnemyChoice.SHOOT;
+		MoveDir = -MoveDir;
+	}
 	else if(place_meeting(x + MoveDir, y, objCollide)) Choice = EnemyChoice.CHANGEDIR;
 	else if(place_meeting(x + (HSpeed*2 * MoveDir * 2 *(-VSpeed/Gravity)), y+1, objCollide)) Choice = choose(EnemyChoice.CHANGEDIR, EnemyChoice.JUMP);
-	else Choice = EnemyChoice.CHANGEDIR;
+	else Choice = 0;
 	
 
 	switch(Choice) 
 	{
+		case 0:
+		{
+			break;
+		}
 		case EnemyChoice.SHOOT:
 		{
 			sprite_index = sprBanditShooting;

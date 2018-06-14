@@ -18,6 +18,7 @@ HInput = 0;	//Horizontal Input
 VInput = 0;	//Vertical Input
 JInput = 0;	//Jump Input
 AInput = 0; //Activate Input
+ShootInput = 0;
 
 //Player Hover
 CanHover			= 0;
@@ -52,3 +53,14 @@ SpriteFall		= sprPlayer1Fall;
 SpriteHover		= sprPlayer1Hover;
 SpriteActivate	= sprPlayer1Activate;
 SpriteDead		= sprPlayer1Death;
+
+//--- Controler Inputs
+
+MyController = -1;
+LeftKey = "A";
+RightKey = "D";
+DownKey = "S";
+UpKey = "W";
+ActivateKey = "F";
+JumpKey = vk_space;
+ShootKey = mb_left;

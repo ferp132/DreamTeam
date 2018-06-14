@@ -1,13 +1,16 @@
 with(MyOwner)
 {
 	other.x = x;
-	other.y = objPlayer.y - 32;
+	other.y = y - 32;
 	other.Direction = MoveDir;
 	other.GunDamage = PlayerDamage;
 	other.GunFireRate = PlayerFireRate;
 	other.GunBulletSpeed = PlayerBulletSpeed;
+	other.MyController = MyController;
+	other.ShootInput = ShootInput;
 }
-Pointing = point_direction(x, y, mouse_x, mouse_y);
+if(MyController = -1) Pointing = point_direction(x, y, mouse_x, mouse_y);
+else Pointing = point_direction(0,0,gamepad_axis_value(MyController,gp_axisrh),gamepad_axis_value(MyController,gp_axisrv));
 
 if(Direction == 1)
 {
@@ -24,11 +27,11 @@ else if(Direction = -1)
 
 image_angle = Pointing + (20 * Direction);
 
-if(mouse_check_button(mb_left) && ShootTimer <= 0) 
+if(ShootInput && ShootTimer <= 0) 
 {
 	with (instance_create_layer(x, y+30, "Instances", objbullet))
 	{
-		MyOwner = other.id;
+		MyOwner = other.object_index;
 		direction = other.Pointing;
 		image_angle = other.Pointing;
 		BulletDamage = other.GunDamage;
