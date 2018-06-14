@@ -3,3 +3,4 @@ Gravity			= 1;
 HMovement		= 0;
 VMovement		= 0;
 CanMove			= 0;
+MoveDir			= 0;

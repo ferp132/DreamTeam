@@ -6,3 +6,4 @@ if(place_meeting(x + HMovement, y, objCollide))
 	HMovement = 0;
 }
 
+if(place_meeting(x+MoveDir, y, objCollide)) x += -MoveDir;

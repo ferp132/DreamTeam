@@ -6,7 +6,6 @@ if(MyController == -1)
 	JInput		= keyboard_check_pressed(JumpKey);
 	HoverInput	= keyboard_check(JumpKey);
 	ShootInput  = mouse_check_button(ShootKey);
-	AInput		= keyboard_check(ActivateKey);
 }
 else
 {

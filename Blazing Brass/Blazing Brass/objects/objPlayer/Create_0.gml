@@ -10,7 +10,7 @@ PlayerHPMultiplier = 1;
 
 //-----Player Attack Values
 PlayerDamage = 10;
-PlayerBulletSpeed = 100;
+PlayerBulletSpeed = 150;
 PlayerFireRate = 15;
 
 //Player Input Variables
@@ -61,6 +61,6 @@ LeftKey = "A";
 RightKey = "D";
 DownKey = "S";
 UpKey = "W";
-ActivateKey = "F";
+//ActivateKey = "F";
 JumpKey = vk_space;
 ShootKey = mb_left;

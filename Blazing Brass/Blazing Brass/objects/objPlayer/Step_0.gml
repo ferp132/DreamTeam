@@ -49,10 +49,10 @@ else
 	}
 }
 
-if(!AInput)
-{
-	State = PlayerState.ACTIVATE;
-}
+//if(!AInput)
+//{
+//	State = PlayerState.ACTIVATE;
+//}
 
 //-----Collisions
 scrHorzCollision();
