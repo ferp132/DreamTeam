@@ -25,8 +25,20 @@ for (_y = 0; _y < yTiles; _y++)
 				LevelData += "2";
 				break;
 			case objPushBox:
-				LevelData += "3";
+				LevelData += "X";
 				break;
+			case objBarrelUp:
+				LevelData += "U";
+				break	
+			case objBarrelSide:
+				LevelData += "S";
+				break	
+			case objSeatLeft:
+				LevelData += "L";
+				break	
+			case objSeatRight:
+				LevelData += "R";
+				break	
 			case objScrap:
 				LevelData += "4";
 				break;
@@ -36,6 +48,7 @@ for (_y = 0; _y < yTiles; _y++)
 			case objBandit:
 				LevelData += "6";
 				break	
+			
 		}
 	}
 
