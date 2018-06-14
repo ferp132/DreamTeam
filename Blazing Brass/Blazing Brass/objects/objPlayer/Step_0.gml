@@ -5,13 +5,13 @@ scrGetInput();
 if(HInput != 0)
 {
 		MoveDir = HInput;
-		State = PlayerState.RUN;
+		if(place_meeting(x, y+1, objCollide)) State = PlayerState.RUN;
 		HMovement += MoveDir * Acceleration;
 		HMovement = clamp(HMovement, -HSpeed, HSpeed)
 }
 else	
 {
-	State = PlayerState.IDLE;
+	if(place_meeting(x, y+1, objCollide)) State = PlayerState.IDLE;
 	HMovement = 0;
 }
 
@@ -27,10 +27,9 @@ if(place_meeting(x, y+1, objCollide))
 }
 else 
 {
-	if(CanHover)
+	if(CanHover && HoverInput)
 	{
-		State = PlayerState.HOVER;
-		VMovement = 0;
+		VMovement = -1;
 		if(VInput !=0) 
 		{
 			VMovement = HSpeed * VInput;
@@ -40,6 +39,7 @@ else
 	}
 	else if(JInput && HoverCounter > 0)
 	{
+		State = PlayerState.STARTHOVER;
 		CanHover = 1;
 	}
 	else
@@ -49,7 +49,7 @@ else
 	}
 }
 
-if(AInput != 0)
+if(!AInput)
 {
 	State = PlayerState.ACTIVATE;
 }

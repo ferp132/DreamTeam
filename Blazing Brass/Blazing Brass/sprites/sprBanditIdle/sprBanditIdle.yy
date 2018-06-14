@@ -7,8 +7,8 @@
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 255,
-    "bbox_left": 64,
-    "bbox_right": 159,
+    "bbox_left": 43,
+    "bbox_right": 137,
     "bbox_top": 0,
     "bboxmode": 2,
     "colkind": 1,
@@ -274,9 +274,9 @@
             "visible": true
         }
     ],
-    "origin": 9,
+    "origin": 7,
     "originLocked": false,
-    "playbackSpeed": 0,
+    "playbackSpeed": 11,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
@@ -285,6 +285,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 180,
-    "xorig": 64,
-    "yorig": 0
+    "xorig": 90,
+    "yorig": 255
 }
