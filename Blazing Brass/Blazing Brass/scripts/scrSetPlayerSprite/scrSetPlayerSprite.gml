@@ -23,9 +23,26 @@ switch (State)
 		sprite_index = SpriteFall;
 		break;
 	}
-	case PlayerState.HOVER:
+	case PlayerState.STARTHOVER:
 	{
 		sprite_index = SpriteHover;
+		if( image_index >= 1) State = PlayerState.HOVER;
+		break;
+	}
+	case PlayerState.HOVER:
+	{
+		
+		sprite_index = SpriteHover;
+		if(image_index >= 18) image_index = 1;
+		if(!HoverInput) State = PlayerState.ENDHOVER;
+		
+		break;
+	}
+	case PlayerState.ENDHOVER:
+	{
+		image_index = 18;
+		sprite_index = SpriteHover;
+		if(image_index >= image_number) State = PlayerState.FALL;
 		break;
 	}
 	case PlayerState.ACTIVATE:

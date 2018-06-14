@@ -151,6 +151,22 @@
             }
         },
         {
+            "Key": "13c7e645-8111-423f-a686-93d0b033c2b8",
+            "Value": {
+                "id": "3fd2f485-87e7-410c-afd9-a529cbe40d3a",
+                "resourcePath": "scripts\\scrEnemyNoFall\\scrEnemyNoFall.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "16626011-1321-49b2-953d-1059d8c7c621",
+            "Value": {
+                "id": "df4d8410-6523-4279-a14b-5e1e50be3f77",
+                "resourcePath": "scripts\\scrEnemyDecision\\scrEnemyDecision.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1c264dbd-1d92-4cc8-8ab4-75c0118eb9a4",
             "Value": {
                 "id": "c2cff3f2-3193-42ae-a8bc-06eb4343fcd4",
@@ -1073,7 +1089,9 @@
         "57060f5e-42f1-44b8-a799-9932c68fedd1",
         "797f5776-ae30-48ff-afe1-8ee007b31097",
         "c52f013b-d780-4885-9bbe-a1f8e18c613a",
-        "d5d70c74-6e83-4684-97a8-642f8b5121c9"
+        "d5d70c74-6e83-4684-97a8-642f8b5121c9",
+        "13c7e645-8111-423f-a686-93d0b033c2b8",
+        "16626011-1321-49b2-953d-1059d8c7c621"
     ],
     "tutorial": ""
 }
