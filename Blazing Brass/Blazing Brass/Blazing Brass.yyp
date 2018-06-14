@@ -39,14 +39,6 @@
             }
         },
         {
-            "Key": "00f521c4-39f1-4303-99e2-a569be7d1988",
-            "Value": {
-                "id": "17d0b66e-6a41-4d75-a7b2-ee557b4a878a",
-                "resourcePath": "objects\\objFlyingEnemy\\objFlyingEnemy.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "0124597d-21ff-4e1a-a7ee-532cce9c6d29",
             "Value": {
                 "id": "cc4a0160-4d64-4265-ad65-47ae273359ad",
@@ -567,14 +559,6 @@
             }
         },
         {
-            "Key": "4d9d7889-5b97-4b5d-82a1-67e1bb0ce22a",
-            "Value": {
-                "id": "a3b517fd-e0c1-4de9-a241-816209ba08c4",
-                "resourcePath": "objects\\objBoss\\objBoss.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "4e6fb15d-1803-4e7b-8bfc-a599af47a474",
             "Value": {
                 "id": "30ee245a-0220-4466-b587-d2469d9e7ce0",
@@ -596,14 +580,6 @@
                 "id": "f90548b2-1917-4ccc-a078-35e9de7f43ea",
                 "resourcePath": "views\\4efc4c14-8d97-4a33-ae49-e801b228de26.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4f545189-65b1-42e1-9e66-cadcb6a95bf1",
-            "Value": {
-                "id": "77e1fdfd-02ef-4a87-a149-9f6f37c74188",
-                "resourcePath": "sprites\\sprite81\\sprite81.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -904,6 +880,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "794a41a2-66b2-418d-89f9-684f0ade8bb2",
             "Value": {
                 "id": "ba0a7a51-6754-4bea-9a94-611286117757",
@@ -919,6 +896,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of daf0f85... Included Boss Prototype
             "Key": "797f5776-ae30-48ff-afe1-8ee007b31097",
             "Value": {
                 "id": "074fbee8-2e30-4b61-80ec-f72231a9d671",
@@ -968,6 +947,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "82398d98-7621-426c-9997-3bed84aa111d",
             "Value": {
                 "id": "a062f0ad-ce50-4409-b136-0e5ec7a3613f",
@@ -983,6 +963,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of daf0f85... Included Boss Prototype
             "Key": "829950b7-a547-4ed6-bf32-07f6a91539cd",
             "Value": {
                 "id": "69225126-7034-4d99-aee4-499aa6c9de33",
@@ -1096,6 +1078,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "8ecdc36e-444c-4133-933d-3bbc73303926",
             "Value": {
                 "id": "ff813788-d314-4a50-9792-b34753c5850a",
@@ -1119,6 +1102,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of daf0f85... Included Boss Prototype
             "Key": "90cd0d95-c8ce-419a-9ba9-5c24da25d41a",
             "Value": {
                 "id": "01f3e62e-7762-4808-9f44-8839f9d74517",
@@ -1184,6 +1169,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "981dd438-24fc-48ec-a72e-47ae63675fc3",
             "Value": {
                 "id": "e4c319ca-08c7-48dd-969c-58ce8ca56dad",
@@ -1207,6 +1193,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of daf0f85... Included Boss Prototype
             "Key": "9d84b51b-8648-4395-bf10-3a956fbb0cce",
             "Value": {
                 "id": "dde7ccd5-58b7-4de8-8b0b-7667f08c487a",
@@ -1252,14 +1240,6 @@
                 "id": "7402046b-966f-4759-ac69-e6d7b910d5f4",
                 "resourcePath": "sprites\\sprTurretIdle\\sprTurretIdle.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a61e0c01-4cbf-4daf-aaf2-dcea333bb27d",
-            "Value": {
-                "id": "08460d22-6b6c-49bc-b7d0-417c4d61cc18",
-                "resourcePath": "views\\a61e0c01-4cbf-4daf-aaf2-dcea333bb27d.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1324,14 +1304,6 @@
                 "id": "732c046e-dd1b-4731-b9f1-2c808ecb8992",
                 "resourcePath": "views\\b00baf34-61ba-4c8e-ba17-df1858729a4c.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b1c05896-01bb-4414-9c94-1ea82b7d480f",
-            "Value": {
-                "id": "24624029-29ff-4a1d-b9a6-d8190d7c72d1",
-                "resourcePath": "objects\\objBaloonBomb\\objBaloonBomb.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1472,6 +1444,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "c3093196-410f-4dca-8351-75ebdbc948bd",
             "Value": {
                 "id": "8d1b563d-e763-42e4-93f5-f37eae0f0ab1",
@@ -1487,6 +1460,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of daf0f85... Included Boss Prototype
             "Key": "c4a5d2fe-1164-49e3-9b5b-cea87c65cda9",
             "Value": {
                 "id": "940593e0-e3af-4623-a574-2a8becfc6428",
@@ -1704,6 +1679,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "d88e2442-355d-4565-b857-e89e90230f68",
             "Value": {
                 "id": "a00d1dac-7546-4c3f-947a-260786fa103e",
@@ -1719,6 +1695,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of daf0f85... Included Boss Prototype
             "Key": "d90b6e1e-1c09-4ec6-9db7-f1af8fdd4841",
             "Value": {
                 "id": "56d1eb85-9094-4587-ad0a-6ae95af94b8d",
@@ -1819,14 +1797,6 @@
             "Value": {
                 "id": "1b391f3f-e60e-4751-b6c0-a1e3d3516191",
                 "resourcePath": "views\\e948d4b2-d881-4811-a0b4-584e371e7b4c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e990b4e5-1de1-4464-aafe-2f7ef948759e",
-            "Value": {
-                "id": "c35b8016-4548-4762-b8e7-24c438082f19",
-                "resourcePath": "views\\e990b4e5-1de1-4464-aafe-2f7ef948759e.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1999,14 +1969,6 @@
             }
         },
         {
-            "Key": "fb13dae5-9a3e-4ef4-901c-e0db269cb938",
-            "Value": {
-                "id": "3748133b-207b-470a-b825-92dc11731e11",
-                "resourcePath": "scripts\\SpawnFlyingEnemies\\SpawnFlyingEnemies.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "fcfbe5aa-7794-44ed-928a-b09058dc73b0",
             "Value": {
                 "id": "ae2152a2-3c4f-4262-a56a-7d12991818ae",
@@ -2067,10 +2029,7 @@
         "c52f013b-d780-4885-9bbe-a1f8e18c613a",
         "d5d70c74-6e83-4684-97a8-642f8b5121c9",
         "13c7e645-8111-423f-a686-93d0b033c2b8",
-        "16626011-1321-49b2-953d-1059d8c7c621",
-        "99e0d2c6-4683-4cda-aa5f-9085741bd46c",
-        "fb13dae5-9a3e-4ef4-901c-e0db269cb938",
-        "d7cdc0b8-2319-4b52-b809-28c40e3d422f"
+        "16626011-1321-49b2-953d-1059d8c7c621"
     ],
     "tutorial": ""
 }
