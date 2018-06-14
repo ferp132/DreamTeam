@@ -1,0 +1,1 @@
+instance_create_layer(x,y,"Instances_bullet",objRollBomb)
