@@ -26,29 +26,9 @@ for (c = 0; c < string_length(CarriageStringData); c++)
 			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objLadder);
 			break;
 		}
-		case "X":
+		case "3":
 		{
 			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objPushBox);
-			break;
-		}
-		case "U":
-		{
-			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objBarrelUp);
-			break;
-		}
-		case "S":
-		{
-			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objBarrelSide);
-			break;
-		}
-		case "L":
-		{
-			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objSeatLeft);
-			break;
-		}
-		case "R":
-		{
-			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", objSeatRight);
 			break;
 		}
 		case "4":
