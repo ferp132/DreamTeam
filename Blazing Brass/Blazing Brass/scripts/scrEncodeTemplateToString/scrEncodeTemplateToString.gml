@@ -39,6 +39,9 @@ for (_y = 0; _y < yTiles; _y++)
 			case objSeatRight:
 				LevelData += "R";
 				break	
+			case objTable:
+				LevelData += "T";
+				break	
 			case objScrap:
 				LevelData += "4";
 				break;
@@ -48,7 +51,45 @@ for (_y = 0; _y < yTiles; _y++)
 			case objBandit:
 				LevelData += "6";
 				break	
-			
+			case objWagonConnector:
+				LevelData += "!";
+				break	
+			case objWagon1Crack1:
+				LevelData += "@";
+				break	
+			case objWagon2Crack1:
+				LevelData += "#";
+				break
+			case objWagon3:
+				LevelData += "$";
+				break	
+			case objWagon4:
+				LevelData += "%";
+				break	
+			case objWagon5:
+				LevelData += "^";
+				break	
+			case objWagon1Crack2:
+				LevelData += "&";
+				break	
+			case objWagon1Crack3:
+				LevelData += "*";
+				break	
+			case objWagon1Ladder1:
+				LevelData += "(";
+				break	
+			case objWagon1Ladder2:
+				LevelData += ")";
+				break
+			case objWagon2Crack2:
+				LevelData += "_";
+				break	
+			case objWagon2Ladder1:
+				LevelData += "+";
+				break	
+			case objWagon2Ladder2:
+				LevelData += "{";
+				break	
 		}
 	}
 

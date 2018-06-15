@@ -31,7 +31,8 @@ if(ShootInput && ShootTimer <= 0)
 {
 	with (instance_create_layer(x, y+30, "Instances", objbullet))
 	{
-		MyOwner = other.object_index;
+		//MyOwner = other.object_index;
+		MyOwner = other.MyOwner
 		direction = other.Pointing;
 		image_angle = other.Pointing;
 		BulletDamage = other.GunDamage;

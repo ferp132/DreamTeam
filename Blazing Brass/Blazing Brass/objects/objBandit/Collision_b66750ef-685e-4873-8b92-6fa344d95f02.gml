@@ -1,4 +1,4 @@
-if(other.MyOwner == objArm)
+if(other.MyOwner != objEnemy)
 {
 	EnemyHP -= other.BulletDamage;
 	instance_destroy(other);
