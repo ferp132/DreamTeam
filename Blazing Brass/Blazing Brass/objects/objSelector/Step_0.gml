@@ -4,9 +4,13 @@ if objTitle.MenuSelection = 1
 }
 if objTitle.MenuSelection = 2
 {
-	y = objControlsMenu.y
+	y = objMultiplayer.y
 }
 if objTitle.MenuSelection = 3
+{
+	y = objControlsMenu.y
+}
+if objTitle.MenuSelection = 4
 {
 	y = ObjExit.y
 }
