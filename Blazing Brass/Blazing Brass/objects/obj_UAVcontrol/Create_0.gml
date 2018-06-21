@@ -11,3 +11,5 @@ old_angle_uav = image_angle;
 uav_cooldown = 0;
 
 fire = 0;
+
+uav_gun_cooldown = 20;

@@ -1,0 +1,1 @@
+x += objControl.GlobalMovement;

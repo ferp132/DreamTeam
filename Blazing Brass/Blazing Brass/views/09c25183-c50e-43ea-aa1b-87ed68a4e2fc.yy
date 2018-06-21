@@ -4,15 +4,12 @@
     "mvc": "1.1",
     "name": "09c25183-c50e-43ea-aa1b-87ed68a4e2fc",
     "children": [
-        "e19cb6b1-e445-4093-8939-5ec22931d0f2",
-        "401def7e-1551-45fc-9f97-18602f12f185",
-        "7653c244-c802-4689-a33f-f681f6f75c99",
-        "c9b8d29e-64a5-4bc1-ac24-57dd65d19806",
-        "8cac00b7-3fb1-4b49-b504-942b905cedf5",
-        "915a6ed7-2a1f-4359-bf17-b337240e2414",
-        "f4d2607b-8197-4b30-b68b-09785057b141",
-        "440d2bc3-683c-4209-8d82-0be56a37222c",
-        "0bb19692-3920-446d-bf9a-79e9d0dcf455"
+        "1e6bed3c-6f05-476b-8771-841f9eb00c5b",
+        "18e371b5-63f4-493c-bc9e-e0bffb8c21ee",
+        "b00f396a-572f-413d-a6af-e941ef774209",
+        "6e4f17f7-82c6-4cfe-8068-50ccc35c52d1",
+        "3e345c64-d914-4152-af02-b01045853283",
+        "980a521f-dcad-48a9-9adc-8dba22843f33"
     ],
     "filterType": "GMRoom",
     "folderName": "CarriageTemplates",

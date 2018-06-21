@@ -44,10 +44,14 @@ if(obj_Tankbody.y>=700){
 			tank_speed = 0;
 		}
 	}
+with(obj_rwall)y -= obj_tankcontrol.tank_speed;
+with(obj_ladder)y -= obj_tankcontrol.tank_speed;
 
 obj_player1.y -= tank_speed;
-//obj_player2.y -= tank_speed;
-with(obj_rwall)y -= obj_tankcontrol.tank_speed;
+obj_player2.y -= tank_speed;
+obj_player3.y -= tank_speed;
+obj_player4.y -= tank_speed;
+
 
 obj_tankcontrol.y -= tank_speed;
 obj_Tankbody.y -= tank_speed;

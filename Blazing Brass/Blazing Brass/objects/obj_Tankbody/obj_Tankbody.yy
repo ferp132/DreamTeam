@@ -5,7 +5,7 @@
     "name": "obj_Tankbody",
     "eventList": [
         {
-            "id": "6c3c7102-b93e-4c6d-b597-c94d41fc8dde",
+            "id": "aaf94ba4-08f8-44f8-9878-7ba25944194c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "02b60882-790e-44fa-8149-f9e16b9ef2f9"
         },
         {
-            "id": "f624fcec-e7e8-41c7-8f81-461a34e8c3b5",
+            "id": "38979873-ef93-4430-ad99-c83c0740afbb",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "02b60882-790e-44fa-8149-f9e16b9ef2f9"
         },
         {
-            "id": "b66a0b0e-6a5b-4aa9-9d4c-03498d5d816e",
+            "id": "abc68b70-2dab-45e9-ab04-69a68e32cdd6",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
@@ -51,28 +51,28 @@
     "physicsShape": 1,
     "physicsShapePoints": [
         {
-            "id": "fdf0a839-6f97-4c9c-b97c-eef2dc261058",
+            "id": "e2894120-040a-4561-951d-d08534cf280c",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 19,
             "y": 10
         },
         {
-            "id": "a9b7865b-116e-420f-aee1-8643e6c2b0f8",
+            "id": "badee584-3ce2-4414-9c2c-c328cb9fd52a",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 662,
             "y": 10
         },
         {
-            "id": "99b5c179-ea24-4382-9f8b-7aec4db1fb88",
+            "id": "cf713496-892e-49fe-ba1c-1d6f6bf0cc64",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 662,
             "y": 313
         },
         {
-            "id": "cd5f92a5-a650-405c-90a3-2e86e39a68c0",
+            "id": "cfb1acd3-1a45-4de1-ab2d-ec6aa6617705",
             "modelName": "GMPoint",
             "mvc": "1.0",
             "x": 19,

@@ -5,7 +5,7 @@
     "name": "obj_ememybullet",
     "eventList": [
         {
-            "id": "68d6c678-7d81-4ed1-b38a-f6c8363f2dad",
+            "id": "a787e2f7-0d48-4805-b7e0-8c9f5c8aaa68",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "69d3bd1b-370e-4979-a22f-b3cce2c42902",
+    "spriteId": "87677e36-7208-44b8-8b00-d9002997def7",
     "visible": true
 }

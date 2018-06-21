@@ -1,5 +1,7 @@
-if(other.MyOwner == objEnemy)
+if(other.MyOwner != objPlayer)
 {
-	PlayerHP -= BulletDamage;
+	instance_create_depth(x, other.y ,-1, objBloodSplatter);
+	PlayerHP -= other.BulletDamage;
 	instance_destroy(other);
+
 }

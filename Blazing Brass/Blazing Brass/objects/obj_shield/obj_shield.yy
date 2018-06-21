@@ -5,7 +5,7 @@
     "name": "obj_shield",
     "eventList": [
         {
-            "id": "fa384157-51df-446e-90ce-f17b39c00f6a",
+            "id": "9307250f-cdb6-4484-b2d4-8eb572e89cb1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
@@ -15,7 +15,7 @@
             "m_owner": "e9e87302-116c-4692-976c-aae855dac30a"
         },
         {
-            "id": "8035f164-adfe-4967-b320-7f9cf692110f",
+            "id": "e1350a74-0cff-46e1-9a2a-1435a0866de9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,

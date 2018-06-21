@@ -5,7 +5,7 @@
     "name": "obj_shell",
     "eventList": [
         {
-            "id": "e7d5a4f4-d26d-4c3c-801e-03b71872e439",
+            "id": "00b0fbdd-62d0-4ba5-8e64-46d7523421ba",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "f2eb47aa-b2bd-4498-80d2-68f9114d9c86"
         },
         {
-            "id": "badb6d6d-1c21-4176-9e5a-fcd0e0cf3dbf",
+            "id": "3beb4031-06c3-4226-a186-e7278689b23d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

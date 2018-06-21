@@ -1,0 +1,1 @@
+gamepad_set_vibration(gun_in_control, 0, 0);

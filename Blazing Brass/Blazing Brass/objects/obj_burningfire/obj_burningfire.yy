@@ -5,7 +5,7 @@
     "name": "obj_burningfire",
     "eventList": [
         {
-            "id": "6d728f72-e607-4a9c-95fc-2fac95ba3204",
+            "id": "cb3bf761-7bbb-49c6-bbe6-f7346ac9459f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "72c3f81e-9f39-4a3d-b261-f3111263dfc8"
         },
         {
-            "id": "7b2a1390-f431-4116-938d-efe2d3e6db51",
+            "id": "5f15dcac-8c45-4155-893f-885385b13541",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

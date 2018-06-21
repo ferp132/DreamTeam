@@ -5,7 +5,7 @@
     "name": "obj_testenemy",
     "eventList": [
         {
-            "id": "3ab37340-6968-4478-8f92-09ae3d1bebf5",
+            "id": "37147390-b5f5-4919-b6b5-fca6ac7415af",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "f3753ac6-3124-4157-9bed-161551c5817a"
         },
         {
-            "id": "c92d3a11-aeef-409b-a7e0-5b2d9eeb2e45",
+            "id": "09226c4c-6db7-46c4-9016-b8ca06af8f6e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "f3753ac6-3124-4157-9bed-161551c5817a"
         },
         {
-            "id": "2303956a-0fc7-418a-b6d7-35bc866488b5",
+            "id": "8fb76520-57b8-41b3-9847-d179717dbae5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

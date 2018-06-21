@@ -1,5 +1,8 @@
-fraction = 0.5;
-canmove = 1;
-gamepad_set_axis_deadzone(1,0.2);
+//fraction = 0.5;
 
-gravity_switch = 1;
+on_ladder = false;
+spd = 3;
+canmove = 1;
+gamepad_set_axis_deadzone(1,0.1);
+
+gravity_switch = true;
