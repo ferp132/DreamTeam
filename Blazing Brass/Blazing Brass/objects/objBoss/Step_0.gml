@@ -14,18 +14,20 @@ else{
 }
 
 //If the boss dies
+if (BossDead == true)
+{
 move_towards_point(x, 600, 0.5)
 if (cooldown <=0)
 {
 	if(cooldown <= 0)
 	{
 	instance_create_layer(random_range(x-92, x),random_range(y-150,y+150),"Instances_bullet",objBossExplosion);
-	cooldown = 20;
+	cooldown = 100;
 
 	}
 }
 else{
 	cooldown--;
 }
-
+}
 

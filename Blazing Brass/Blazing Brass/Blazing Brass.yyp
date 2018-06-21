@@ -2719,6 +2719,14 @@
             }
         },
         {
+            "Key": "ce5a29ce-368c-4496-a4c1-a2e58b5d7ac1",
+            "Value": {
+                "id": "e0e7bb69-1eff-496e-8180-c68dba5e0dcd",
+                "resourcePath": "sprites\\sprMultiplayer\\sprMultiplayer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cefc9e75-1b5a-4ea8-8ddc-dfbc362a7e07",
             "Value": {
                 "id": "8c70e242-f2de-4ac4-b2a6-e21d39cba2aa",
@@ -2791,14 +2799,6 @@
             }
         },
         {
-            "Key": "d2606d35-54c3-405d-ac20-ab7989e20c4c",
-            "Value": {
-                "id": "f5c5cfee-ebe7-45b9-bd46-29282d4e3983",
-                "resourcePath": "objects\\objStart\\objStart.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "d395167a-a2e6-4ff8-9af3-03e5695c1922",
             "Value": {
                 "id": "4691ea54-6e8f-472a-999b-6a17705b3b7d",
@@ -2852,6 +2852,14 @@
                 "id": "4bd4842b-3a7c-4659-a6fc-9e5f7275bea0",
                 "resourcePath": "scripts\\scrPropCollision\\scrPropCollision.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "d5f84d7c-4979-4e6d-8b7b-fc1a498866b0",
+            "Value": {
+                "id": "b7687e93-5e5b-4c71-9742-fa4d38f9fab7",
+                "resourcePath": "sprites\\sprStart2\\sprStart2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
