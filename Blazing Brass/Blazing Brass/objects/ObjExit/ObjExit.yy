@@ -5,7 +5,7 @@
     "name": "ObjExit",
     "eventList": [
         {
-            "id": "499001b6-92c0-48bf-ba29-422c06b44d40",
+            "id": "e689025c-375c-4a94-b7dc-697018654a73",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "f07531b9-4e96-4f38-8296-4202b4050047"
         },
         {
-            "id": "b23346dc-c65c-471f-8d20-a0bf4be07728",
+            "id": "7177944f-4cc5-46d3-9c00-f26250a2a01e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

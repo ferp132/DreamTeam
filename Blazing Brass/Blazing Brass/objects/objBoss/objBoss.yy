@@ -5,7 +5,7 @@
     "name": "objBoss",
     "eventList": [
         {
-            "id": "0915f080-d1f0-4026-a53c-1f0fbc86ce76",
+            "id": "791d9207-e701-4a48-8b66-ad0388582bb7",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "4d9d7889-5b97-4b5d-82a1-67e1bb0ce22a"
         },
         {
-            "id": "b8fee683-2881-410d-8d0c-e0fa516af124",
+            "id": "3b1a9930-aae2-4538-9150-4bfa00cb69f9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "4d9d7889-5b97-4b5d-82a1-67e1bb0ce22a"
         },
         {
-            "id": "837699e9-7f01-4dda-90eb-def86d77f30e",
+            "id": "0ceea906-5dc5-4561-b08d-ae33e53ba5dd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "4d9d7889-5b97-4b5d-82a1-67e1bb0ce22a"
         },
         {
-            "id": "03ab4afa-1543-44a3-8e45-583fb5dae80b",
+            "id": "4868a32f-b7a0-466c-92fb-ab2b551e2e01",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,7 +45,7 @@
             "m_owner": "4d9d7889-5b97-4b5d-82a1-67e1bb0ce22a"
         },
         {
-            "id": "0905989b-b72a-4c06-883a-6b10a991cdde",
+            "id": "ae79a2ed-8182-4898-a9e0-2e3350f7c11f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

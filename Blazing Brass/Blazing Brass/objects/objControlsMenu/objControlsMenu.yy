@@ -5,7 +5,7 @@
     "name": "objControlsMenu",
     "eventList": [
         {
-            "id": "044a9437-abbf-458e-a215-0d64d601dad0",
+            "id": "76f02983-7c9c-4c3c-849a-bda64087445b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "6b8c03ec-3031-4d91-8b35-1a51ab3f2e7d"
         },
         {
-            "id": "e22e35fb-dff5-45fd-8bcd-2b38e53ee9bd",
+            "id": "d7deeb29-1c19-429e-991b-7894cad75172",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "6b8c03ec-3031-4d91-8b35-1a51ab3f2e7d"
         },
         {
-            "id": "23a8a44c-8307-4b43-a4fe-f7ac21020947",
+            "id": "40b23611-60b2-461e-994f-52c607b19e4c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

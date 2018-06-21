@@ -5,7 +5,7 @@
     "name": "objSelector",
     "eventList": [
         {
-            "id": "302eff83-c7b8-460b-8922-ada18dad73ec",
+            "id": "5ba37d56-230c-4651-993b-b7a99041b7a3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "98846f4b-b550-4b80-91f5-5ef1367703b8",
+    "spriteId": "6c849e35-64c9-469b-ab12-6873104566be",
     "visible": true
 }
