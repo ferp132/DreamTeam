@@ -1,0 +1,1 @@
+sprite_index = sprWagon1Crack1;

@@ -1,0 +1,9 @@
+MyOwner = noone;
+MyController = 0;
+ShootInput = 0;
+Direction = 0;
+Pointing = 0;
+ShootTimer	= 0;
+GunDamage = 0;
+GunFireRate = 0;
+GunBulletSpeed = 0;

@@ -1,5 +1,7 @@
 //Control Alarm. Boss makes desicions on how to act once per itterations of Alarm
 
+if (BossDead = false)
+{
 //Movement loop stuck for some reason....
 switch (irandom_range(1,5))
 {
@@ -36,3 +38,8 @@ break;
 
 //This line resets the logic loop
 alarm[0]=60;
+}
+else
+{
+
+}
