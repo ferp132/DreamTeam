@@ -39,6 +39,40 @@ if(FloorSpawnTimer <= 0 && room_get_name(room) == "room0")
 
 FloorSpawnTimer--;
 
+if(ScrapCounter  >= 100)
+{
+	ScrapCounter = 0;
+	Upgrade = choose(1,2,3,4);
+	
+	switch(Upgrade)
+	{
+	case 1:
+	{
+		PlayerBulletSpeedMultiplier += 0.2;
+		show_message("UpgradeBulletSpeed");
+		break;
+	}
+	case 2:
+	{
+		PlayerFireRateMultiplier -= 0.2;
+		show_message("UpgradeFireRate");
+		break;
+	}
+	case 3:
+	{
+		PlayerDamageMultiplier += 0.2;
+		show_message("UpgradeDamage");
+		break;
+	}
+	case 4:
+	{
+		PlayerHoverTimeMultiplier += 0.2;
+		show_message("UpgradeHoverTime");
+		break;
+	}
+	}
+	
+}
 
 if(!instance_exists(objPlayer)) instance_create_layer(x,y,"Instances", objPlayer); 
 

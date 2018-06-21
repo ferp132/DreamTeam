@@ -5,23 +5,13 @@
     "name": "obj_ladder",
     "eventList": [
         {
-            "id": "a3eb8a75-b985-4d55-95d7-bcc429f2c18c",
+            "id": "02aa8d22-4523-4c4a-83d0-98b2c8574fc9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d93b4b70-007a-4252-ac31-5b910458786f"
-        },
-        {
-            "id": "076ee71d-d0e7-48b6-aa2d-f38371b06642",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
             "m_owner": "d93b4b70-007a-4252-ac31-5b910458786f"
         }
     ],

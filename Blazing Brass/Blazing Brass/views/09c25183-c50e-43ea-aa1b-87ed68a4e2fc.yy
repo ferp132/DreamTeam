@@ -8,7 +8,8 @@
         "18e371b5-63f4-493c-bc9e-e0bffb8c21ee",
         "b00f396a-572f-413d-a6af-e941ef774209",
         "6e4f17f7-82c6-4cfe-8068-50ccc35c52d1",
-        "3e345c64-d914-4152-af02-b01045853283"
+        "3e345c64-d914-4152-af02-b01045853283",
+        "980a521f-dcad-48a9-9adc-8dba22843f33"
     ],
     "filterType": "GMRoom",
     "folderName": "CarriageTemplates",

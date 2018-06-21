@@ -79,3 +79,9 @@ else
 		if(image_alpha <= 0.01) instance_destroy();
 	}
 }
+
+EnemyPush();
+if(!place_meeting(x,y,objEnemy))
+{
+	HMovement_Push = lerp(HMovement_Push, 0, .1);
+}

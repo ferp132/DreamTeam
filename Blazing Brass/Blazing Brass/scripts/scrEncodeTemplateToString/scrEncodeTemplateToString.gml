@@ -45,7 +45,7 @@ for (_y = 0; _y < yTiles; _y++)
 			case objScrap:
 				LevelData += "4";
 				break;
-			case Obj_Turret:
+			case ObjTurret:
 				LevelData += "5";
 				break
 			case objBandit:

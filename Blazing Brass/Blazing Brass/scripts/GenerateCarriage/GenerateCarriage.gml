@@ -94,7 +94,7 @@ for (c = 0; c < string_length(CarriageStringData); c++)
 		}
 		case "5":
 		{
-			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", Obj_Turret);
+			instance_create_layer(PlaceToPlacex, PlaceToPlacey, "Instances", ObjTurret);
 			break;
 		}
 		case "6":

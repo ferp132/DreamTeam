@@ -29,7 +29,7 @@ image_angle = Pointing + (20 * Direction);
 
 if(ShootInput && ShootTimer <= 0) 
 {
-	with (instance_create_layer(x, y+30, "Instances", objbullet))
+	with (instance_create_layer(x + 35 * Direction, y+30, "Instances", objbullet))
 	{
 		//MyOwner = other.object_index;
 		MyOwner = other.MyOwner

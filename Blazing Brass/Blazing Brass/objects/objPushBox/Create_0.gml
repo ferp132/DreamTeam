@@ -1,4 +1,4 @@
-PropHP			= 50;
+PropHP			= 30;
 Gravity			= 1;
 PushSpeed		= 5;
 HMovement		= 0;

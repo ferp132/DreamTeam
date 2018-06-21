@@ -1,4 +1,4 @@
-if(uavcontrol!=0){
+if(uavcontrol!=0&&instance_exists(obj_UAV)){
 	//obj_UAV.image_angle -= gamepad_axis_value(uav_in_control,gp_axislh);
 	obj_UAV.x += gamepad_axis_value(uav_in_control,gp_axislh)*10;
 	obj_UAV.y += gamepad_axis_value(uav_in_control,gp_axislv)*10;
@@ -10,11 +10,14 @@ if(uavcontrol!=0){
 		//obj_UAV.image_angle = old_angle_uav;
 	}
 	
-	if(gamepad_button_check(uav_in_control,gp_shoulderrb)){
+	if(gamepad_button_check(uav_in_control,gp_shoulderrb)&&uav_gun_cooldown<=0){
 		uav_bullet = instance_create_layer(obj_UAV.x,obj_UAV.y,"Instances_bullet",obj_bullet);
 		uav_bullet.direction = obj_UAV.image_angle;
 		uav_bullet.image_angle = obj_UAV.image_angle;
+		uav_gun_cooldown = 20;
 	}
+	uav_gun_cooldown--;
+	uav_gun_cooldown = max(0,uav_gun_cooldown);
 }
 else{
 	cooldown--;
@@ -22,3 +25,5 @@ else{
 }
 	uav_cooldown--;
 	uav_cooldown = max(0,uav_cooldown);
+	uav_gun_cooldown--;
+	uav_gun_cooldown = max(0,uav_gun_cooldown);

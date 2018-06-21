@@ -1,3 +1,9 @@
+//Apply Improvements
+PlayerDamage = BasePlayerDamage * objControl.PlayerDamageMultiplier;
+PlayerBulletSpeed = BasePlayerBulletSpeed * objControl.PlayerBulletSpeedMultiplier;
+PlayerFireRate = BasePlayerFireRate * objControl.PlayerFireRateMultiplier;
+PlayerHoverTime = BasePlayerHoverTime * objControl.PlayerHoverTimeMultiplier;
+
 //-----GetInput
 scrGetInput();
 
@@ -18,7 +24,7 @@ else
 if(place_meeting(x, y+1, objCollide))
 {
 	CanHover = 0;
-	HoverCounter = HoverTime * HoverTimeMultiplier;
+	HoverCounter = PlayerHoverTime;
 	if(JInput)
 	{
 		State = PlayerState.JUMP;
@@ -66,6 +72,9 @@ scrSetPlayerSprite();
 
 #region Destroy The Player
 
-if (y > room_height * 1.5 || PlayerHP <= 0) instance_destroy();
-
+if (y > room_height * 1.5 || PlayerHP <= 0) 
+{
+	instance_destroy();
+	instance_destroy(MyArms);
+}
 #endregion

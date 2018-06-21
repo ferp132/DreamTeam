@@ -5,7 +5,7 @@
     "name": "obj_subguncontrol2",
     "eventList": [
         {
-            "id": "974f4e50-8058-4cfd-ac2c-931c987a06ba",
+            "id": "d7110c09-debb-4396-a191-e549c0e6dadc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
         },
         {
-            "id": "94b4bbf3-6bef-41c4-9d41-5e184f2ab7c9",
+            "id": "ac652b4d-2092-492b-ab36-6ec6d04ca6b8",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -25,7 +25,7 @@
             "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
         },
         {
-            "id": "41fd0aa0-35e6-4390-8023-891e19247b5e",
+            "id": "329c4720-8069-483b-915a-1c41d7910f70",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -35,7 +35,7 @@
             "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
         },
         {
-            "id": "d93a166e-cf13-483b-8060-0045c052f0e3",
+            "id": "892c3559-3b64-48e2-9d70-f8eb6ee5f272",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -45,11 +45,31 @@
             "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
         },
         {
-            "id": "ee416e5b-2054-4404-830b-052dd26e3d74",
+            "id": "52d74b7b-6749-437d-8080-4084c5457d9d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "b786f624-d122-4eea-8a7a-d2f68c6e3560",
+            "collisionObjectId": "e82399f3-9a36-4ae5-9dcc-69f12169d895",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
+        },
+        {
+            "id": "f62a6fae-ec15-4479-8e7b-c1f4d17432f5",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "d3e79686-d038-4ca6-9192-2b70f20327b1",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
+        },
+        {
+            "id": "99e806f9-def1-4403-91eb-11750ed956ab",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "9caa4c13-e91e-4371-b96d-5de9fb4eb246",
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "f7098d00-2221-4b90-a1ee-f3cd6151e6ed"
