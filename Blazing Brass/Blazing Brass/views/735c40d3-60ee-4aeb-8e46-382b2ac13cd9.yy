@@ -39,7 +39,8 @@
         "9826692e-b3bc-426f-93c9-eea9b386729f",
         "4a480b7c-5d9e-4060-be25-d3077a60ca80",
         "931537a1-c32d-4dcc-900c-5c2ac4cb07d1",
-        "28e788ee-20dc-4479-b806-b8126ffc6395"
+        "28e788ee-20dc-4479-b806-b8126ffc6395",
+        "ce5a29ce-368c-4496-a4c1-a2e58b5d7ac1"
     ],
     "filterType": "GMSprite",
     "folderName": "Stage2",
