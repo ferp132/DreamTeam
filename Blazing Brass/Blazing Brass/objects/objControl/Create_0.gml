@@ -6,7 +6,7 @@ PlayerDamageMultiplier = 1;
 PlayerHoverTimeMultiplier = 1;
 
 FloorSpawnTimer = 0;
-GlobalMovement =-20; //-6
+GlobalMovement =-6; //-6
 Wagon1SpawnTimer = 2145 / abs(GlobalMovement);
 Wagon2SpawnTimer = 1900 / abs(GlobalMovement);
 Wagon3SpawnTimer = 2145 / abs(GlobalMovement);
