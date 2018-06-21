@@ -48,30 +48,40 @@ if(ScrapCounter  >= 100)
 	{
 	case 1:
 	{
-		PlayerBulletSpeedMultiplier += 0.2;
-		show_message("UpgradeBulletSpeed");
+		PlayerBulletSpeedMultiplier += 0.1;
+//		show_message("UpgradeBulletSpeed");
 		break;
 	}
 	case 2:
 	{
-		PlayerFireRateMultiplier -= 0.2;
-		show_message("UpgradeFireRate");
+		PlayerFireRateMultiplier -= 0.1;
+//		show_message("UpgradeFireRate");
 		break;
 	}
 	case 3:
 	{
-		PlayerDamageMultiplier += 0.2;
-		show_message("UpgradeDamage");
+		PlayerDamageMultiplier += 0.1;
+//		show_message("UpgradeDamage");
 		break;
 	}
 	case 4:
 	{
-		PlayerHoverTimeMultiplier += 0.2;
-		show_message("UpgradeHoverTime");
+		PlayerHoverTimeMultiplier += 0.1;
+	//	show_message("UpgradeHoverTime");
 		break;
 	}
 	}
 	
+}
+
+//Set Player Health Bar & Scrap Bar
+if(instance_exists(objPlayer))
+{
+ArmatureHealth = objPlayer.PlayerHP;
+objCharacterFace.PlayerHP = ArmatureHealth;
+
+ArmatureScrap = ScrapCounter;
+objCharacterFace.PlayerScrap = ArmatureScrap;
 }
 
 if(!instance_exists(objPlayer)) instance_create_layer(x,y,"Instances", objPlayer); 

@@ -15,6 +15,8 @@ Wagon5SpawnTimer = 1850 / abs(GlobalMovement);
 ScrapCounter = 0;
 DepthCounter = 1;
 
+ArmatureHealth = 0;
+
 if(room_get_name(room) == "room0")
 	InitializeCarriages(1, 0);
 	
