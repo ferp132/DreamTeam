@@ -10,7 +10,7 @@ hp = 15000;
 speed = 0;
 cooldown = 10;
 LastAction = 0;
-BossDead = true;
+BossDead = false;
 randomize();
 
 //Set up Control Alarm to act and perform various scripts
